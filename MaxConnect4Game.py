@@ -452,3 +452,4 @@ class maxConnect4Game:
       self.playerEval(state)
       self.computerEval(state)
       return self.playerEval(state) - self.computerEval(state)
+
