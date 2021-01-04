@@ -165,10 +165,9 @@ def valid_symbol(symbol):
 
 # End of ported code
 #-------------------------------------------------------------------------------
-
 # Add all your functions here
-
 #pl-true function check all connectives and,or,not,xor,if,iff
+
 def pl_true(expression, model):
     if expression.connective[0].lower() == 'and':
         f = True
